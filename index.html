@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DSA - Data Structures and Algorithms</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 25px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .topic {
+            background-color: white;
+            padding: 18px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .topic h3 {
+            margin-top: 0;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 3px 6px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Data Structures and Algorithms</h1>
+        <p>DSA Learning Notes</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#data">Data Structures</a>
+        <a href="#sorting">Sorting</a>
+        <a href="#searching">Searching</a>
+        <a href="#tree">Trees</a>
+        <a href="#algorithm">Algorithms</a>
+    </nav>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About DSA</h2>
+
+        <div class="topic">
+            <p>
+                DSA stands for
+                <b>Data Structures and Algorithms</b>.
+            </p>
+
+            <p>
+                Data Structure is used to store and organize data.
+                Algorithm is a step-by-step procedure used to solve a problem.
+            </p>
+        </div>
+    </section>
+
+    <!-- Data Structures -->
+    <section id="data">
+        <h2>Data Structures</h2>
+
+        <div class="topic">
+            <h3>1. Array</h3>
+            <p>
+                Array stores multiple elements of the same type
+                in a continuous memory location.
+            </p>
+            <p>Example: 10, 20, 30, 40, 50</p>
+        </div>
+
+        <div class="topic">
+            <h3>2. Linked List</h3>
+            <p>
+                Linked List contains nodes.
+                Each node stores data and a link to the next node.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>3. Stack</h3>
+            <p>
+                Stack follows <b>LIFO</b> —
+                Last In First Out.
+            </p>
+            <p>Operations: Push, Pop, Peek</p>
+        </div>
+
+        <div class="topic">
+            <h3>4. Queue</h3>
+            <p>
+                Queue follows <b>FIFO</b> —
+                First In First Out.
+            </p>
+            <p>Operations: Enqueue, Dequeue</p>
+        </div>
+
+        <div class="topic">
+            <h3>5. Heap</h3>
+            <p>
+                Heap is a tree-based data structure.
+                Types: Min Heap and Max Heap.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sorting -->
+    <section id="sorting">
+        <h2>Sorting Algorithms</h2>
+
+        <div class="topic">
+            <h3>Bubble Sort</h3>
+            <p>
+                Compares adjacent elements and swaps them
+                when they are in the wrong order.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>Insertion Sort</h3>
+            <p>
+                Takes one element at a time and places it
+                in the correct position.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>Merge Sort</h3>
+            <p>
+                Divides the array into smaller parts,
+                sorts them and merges them together.
+            </p>
+        </div>
+    </section>
+
+    <!-- Searching -->
+    <section id="searching">
+        <h2>Searching Algorithms</h2>
+
+        <div class="topic">
+            <h3>Linear Search</h3>
+            <p>
+                Checks each element one by one
+                until the required element is found.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>Binary Search</h3>
+            <p>
+                Searches a sorted array by repeatedly
+                dividing the search area into two parts.
+            </p>
+        </div>
+    </section>
+
+    <!-- Trees -->
+    <section id="tree">
+        <h2>Tree Data Structure</h2>
+
+        <div class="topic">
+            <h3>Binary Tree</h3>
+            <p>
+                A tree in which each node can have
+                at most two children.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>Complete Binary Tree</h3>
+            <p>
+                All levels are completely filled except
+                possibly the last level.
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>B-Tree</h3>
+            <p>
+                B-Tree is a balanced search tree commonly
+                used for efficient searching and storage.
+            </p>
+        </div>
+    </section>
+
+    <!-- Algorithms -->
+    <section id="algorithm">
+        <h2>Important DSA Concepts</h2>
+
+        <div class="topic">
+            <h3>Time Complexity</h3>
+            <p>
+                Time complexity describes how the running time
+                of an algorithm grows with input size.
+            </p>
+
+            <p>
+                Common examples:
+                O(1), O(log n), O(n), O(n log n), O(n²)
+            </p>
+        </div>
+
+        <div class="topic">
+            <h3>Space Complexity</h3>
+            <p>
+                Space complexity describes the amount of
+                memory required by an algorithm.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>DSA Learning Website | Created by Kannan</p>
+    </footer>
+
+</body>
+</html>
